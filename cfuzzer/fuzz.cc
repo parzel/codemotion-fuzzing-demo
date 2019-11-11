@@ -17,13 +17,6 @@ bool FuzzMe(const uint8_t *Data, size_t DataSize) {
       }
     }
   }
-  //memcpy(buffer, Data, DataSize);
-  /*
-  return DataSize >= 3 &&
-      Data[0] == 'F' &&
-      Data[1] == 'U' &&
-      Data[2] == 'Z' &&
-      Data[3] == 'Z';  //BUG HERE*/
   return true;
 }
 
