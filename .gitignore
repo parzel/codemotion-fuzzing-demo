@@ -1,2 +1,6 @@
 
 cfuzzer/fuzz
+
+webfuzzer/node_modules/
+
+webfuzzer/package-lock.json
